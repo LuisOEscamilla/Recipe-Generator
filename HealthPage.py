@@ -21,7 +21,7 @@ else:
     st.session_state.page_name = "health_page.py"
 
 # Configure generative AI
-genai.configure(api_key='AIzaSyAJh77hTTs7oomapWTmVIpUqsokqtBamto')  # API key
+genai.configure(api_key='')  # API key
 model = genai.GenerativeModel('gemini-pro')
 vertexai.init(project="raycastanedatechx24", location = "us-central1")    
 image_model = ImageGenerationModel.from_pretrained("imagegeneration@005")
