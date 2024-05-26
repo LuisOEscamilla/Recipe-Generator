@@ -13,7 +13,7 @@ st.set_page_config(page_title="Drink Recipes By Gemini")
 
 
 # Configure generative AI
-genai.configure(api_key='AIzaSyDiYHOTgV_wNtJGYO5wSM7sdxBuhMcXHz4')  # API key
+genai.configure(api_key='')  # API key
 model = genai.GenerativeModel('gemini-pro')
 vertexai.init(project="raycastanedatechx24", location="us-central1")    
 image_model = ImageGenerationModel.from_pretrained("imagegeneration@005")
