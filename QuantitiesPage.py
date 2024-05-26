@@ -14,7 +14,7 @@ else:
     st.session_state.page_name = "quantities.py"
 
 # Configure API key
-genai.configure(api_key='AIzaSyCKX0vqIhsXNWwg9f03xRsMaOLP_cMbnYg')
+genai.configure(api_key='')
 
 # Create AI model
 model = genai.GenerativeModel('gemini-pro')
